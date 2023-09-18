@@ -35,7 +35,7 @@ theCopir() {
 processKiller() {
     echo "This is a process killer. You can kill enemies like in CS: GO"
 
-    ps
+    ps -A
     read -p "Enter PID you wanna kill: " PID
     kill -9 $PID
 
